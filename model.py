@@ -5,7 +5,6 @@ from discriminator import Discriminator
 from generator import Generator
 import optimizer as opter
 
-
 class CycleGAN:
   def __init__(self,
                X_train_file='',
